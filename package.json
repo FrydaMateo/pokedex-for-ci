@@ -9,8 +9,7 @@
     "start-test": "NODE_ENV=TEST node app.js",
     "test": "jest",
     "eslint": "eslint './**/*.{js,jsx}'",
-    "build": "webpack --mode production",
-    "test:e2e": "npx cypress run"
+    "build": "webpack --mode production"
   },
   "repository": {
     "type": "git",
